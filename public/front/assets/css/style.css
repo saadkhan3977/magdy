@@ -1,0 +1,2288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------header css-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+section.topbar {
+    background: #ffdb74;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+section.topbar img {
+    padding-left: 43px;
+}
+.secondsection_mu{
+    background:black;
+}
+
+.mainmenu ul li a {
+    color: white !important;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.mainmenu .dropdown-menu.show {
+    background: #ffdb74 !important;
+}
+
+.dropdown-menu.show a {
+    color: black !important;
+    font-weight: 700 !important;
+}
+
+.dropdown-menu.show a:hover {
+    background: white !important;
+} 
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------header css end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------Home Page start-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+.bannersection {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/*.bannersection ul li a {*/
+/*    color: white;*/
+/*    margin-top: 10px;*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    font-size: 11.5px;*/
+/*}*/
+
+h1.heading1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 21%;
+    font-size: 34px;
+}
+
+span.any {
+    color: #ffdb74;
+    font-weight: 600;
+}
+
+p.bannerpara {
+    margin-top: 24px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+img.trolly {
+    width: 100%;
+    margin-top: 50px;
+}
+
+a.btn.banbtn:hover {
+    background: #ffdb75 !important;
+}
+
+a.btn.banbtn {
+    background: #ffdb75;
+    color: black;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 16px;
+}
+
+.secondsection {
+    background-color: #6f6f6f;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+img.ban2 {
+    width: 90%;
+}
+
+a.btn.secbanbtn:hover{
+    background:#ffdb74;
+}
+
+a.btn.secbanbtn {
+    position: absolute;
+    background: #ffdb74;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    font-weight: 500;
+    left: 42rem;
+    top: 46rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.productsection{
+    padding-top: 12%;
+}
+
+h1.productheading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span.producthead {
+    color: #ffdb74;
+    padding-left: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+img.card-img-top {
+    width: 160px;
+}
+
+.prodesc {
+    box-sizing: border-box;
+    border: solid white;
+    background: white;
+    box-shadow: 1px 1px 5px 0px #888888;
+    padding-right: 21px;
+    padding-left: 21px;
+    padding-top: 56px;
+    padding-bottom: 7px;
+    border-radius: 7px;
+    height: 228px;
+}
+
+.mainproduct {
+    position: relative;
+    cursor: pointer;
+}
+
+.slick-slide img {
+    display: -webkit-inline-box;
+}
+
+.prodesc h1 {
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 46px;
+}
+
+.prodesc p {
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.proimage {
+    box-sizing: border-box;
+    border: solid white;
+    background: white;
+    box-shadow: 1px 1px 5px 0px #888888;
+    border-radius: 14px;
+}
+
+.proimage {
+    position: absolute;
+    top: -62px;
+    right: 10px;
+    left: 0;
+    width: 75%;
+    margin: auto;
+    height: 146px;
+}
+
+.proimage img {
+    padding-left: 15px;
+    width: 174px;
+}
+
+.allproducts {
+    /* padding-top: 20%; */
+    /* padding-bottom: 20%; */
+}
+
+img.tur {
+    padding-left: 25px;
+}
+
+.worksection {
+    background-color: black;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 10%;
+}
+
+.worksection h1 {
+    color: white;
+    font-family: 'Montserrat';
+}
+
+span.work {
+    color: #ffdb74;
+    font-weight: 600;
+}
+
+span.address {
+    color: white;
+    font-size: 26px;
+    padding-left: 20%;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.maincontent {
+    padding-top: 12%;
+}
+
+/*img.icon2 {*/
+/*    width: 6.3% !important;*/
+/*    height: 16% !important;*/
+    /* object-fit: cover; */
+/*}*/
+
+p.addresspara {
+    color: white;
+    padding-left: 20%;
+    /* width: 98%; */
+    font-family: 'Montserrat';
+    font-size: 14px;
+    width: 78%;
+    color: #9c9c9c;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.maincontent img {
+    width: 6%;
+    position: absolute;
+    right: 0;
+    left: 113px;
+    /* top: 151rem; */
+    /* bottom: 0; */
+}
+
+img.workimg {
+    width: 468px;
+    padding-top: 45%;
+    height: 804px;
+}
+
+/*fourth section*/
+
+section.howitwork_mu {
+    padding-top: 11%;
+    padding-bottom: 5%;
+    background: #f6f6f6;
+}
+
+h4.how_head {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span.work_head {
+    color: #ffdb74;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+span.info_tilemu-home {
+    color: black;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 10%;
+}
+
+p.info_paramu {
+    width: 100%;
+    font-family: 'Poppins';
+    padding-left: 30.1%;
+    margin-top: -7%;
+    color: #a5a5a5;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.works_content img {
+    padding-top: 6%;
+    padding-left: 30px;
+}
+
+span.info_tilemu1-home {
+    color: black;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 4.6%;
+}
+
+p.info_paramu1 {
+    width: 100%;
+    font-family: 'Poppins';
+    padding-left: 29.1%;
+    margin-top: -4%;
+    color: #a5a5a5;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+span.info_tilemu2-home {
+    color: black;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 10.6%;
+}
+
+p.info_paramu2 {
+    width:100%;
+    font-size: 17px;
+    font-family: 'Poppins';
+    padding-left: 30%;
+    margin-top: -4%;
+    color: #a5a5a5;
+    font-weight: 400;
+}
+
+img.howshow_img {
+    width: 100%;
+    height: 100%;
+}
+
+/*fourth end*/
+
+.fifthsection {
+    padding-top: 67px;
+}
+
+.fifthsection h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+span.shopping {
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align:center;
+    font-size:35px;
+}
+
+p.workpara {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat';
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.brands img {
+    width: 85%;
+    padding: 0px;
+    padding-top: 25px;
+}
+
+span.arrow {
+    background: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 900;
+    border-radius: 17px;
+    /* margin-top: 10px !important; */
+    cursor: pointer;
+}
+
+.sixthsection{
+    background-image: url(/images/anywhereban.png);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 7%;
+}
+
+.sixthsection h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+
+.sixthsection p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat';
+    padding-top: 5px;
+}
+
+span.anywhere {
+    color: #ffdb74;
+    font-family: 'Montserrat';
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.sixthsection img {
+    /* padding: 58px; */
+    /* margin-left: 23px; */
+}
+
+/* span.arrow1 {
+    background: white;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 3px;
+    border-radius: 16px;
+    color: black;
+    font-weight: 800;
+} */
+
+
+.sevensection {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.sevensection h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+
+span.frequent {
+    color: #ffdb74;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.sevensection p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat';
+    padding-top: 5px;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    width: 92%;
+    padding-left: 9%;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+
+.content img {
+    width: 72px;
+    margin-left: 34%;
+}
+
+.content h1 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding-top: 26px;
+}
+
+.content p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.houseimg {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.workcontent h2 {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.workcontent p {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 26px;
+    width: 100%;
+    padding: 0;
+    padding-top: 29px;
+}
+
+.frequentdeleiver {
+    box-shadow: 1px 1px 5px 0px #888888;
+    padding: 25px;
+    margin-top: 13%;
+    border-radius: 14px;
+    height: 472px;
+}
+
+.info {
+    padding-top: 30%;
+}
+
+span.customerinfo {
+    color: black;
+    font-size: 20px;
+    padding-left: 22px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.info p {
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    padding-left: 56px;
+    font-family: 'Montserrat';
+}
+
+.eightsection {
+    background-image: url(/images/eightbanner.png);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.eightsection h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 40px;
+}
+
+span.traveler {
+    color: #ffdb74;
+    padding-left: 7px;
+    font-weight: 600;
+}
+
+.eightsection p {
+    color: white;
+    display: flex;
+    justify-content: 'center';
+    justify-content: center;
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.ratedtraveler img {
+    width: 280px;
+    padding-top: 35px;
+}
+
+.ratedtraveler p {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.nine {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.nine h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Montserrat';
+}
+
+span.blog {
+    color: #ffdb74;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.blogimg img {
+    object-fit: contain;
+    width: 359px;
+}
+
+.blogsec1 {
+    padding-top: 4%;
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.img-fluid {
+    max-width: 362px;
+    height: auto;
+}
+
+.blogdate h3 {
+    background: #ffdb74;
+    width: 84px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    padding: 0px;
+    font-size: 26px;
+    font-weight: 600;
+    /* height: 63px; */
+}
+.blogdatecopy h3 {
+    background: #ffdb74;
+    width: 43px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    padding: 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+span.datenum {
+    font-size: 53px;
+    line-height: 30px;
+}
+
+h3.workshophea {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 23px;
+}
+
+p.workshoppara {
+    font-family: 'Montserrat';
+    /*width: 97% !important;*/
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+    /* letter-spacing: 0.5px; */
+}
+
+.completeblog ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.blogmaincontent {
+    /* background: green; */
+    width: 65%;
+    /* float: left; */
+}
+
+.completeblog ul li {
+    width: 48%;
+}
+
+
+
+
+
+
+
+
+
+h2.workshop {
+    font-size: 31px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+p.workpara {
+    text-align: left;
+    font-size: 14px;
+}
+
+p.workpara {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: black;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.bloginfo img {
+    width: 90px;
+}
+
+.footer {
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.footlogo {
+    display: flex;
+    justify-content: center;
+}
+
+.footlogo img {
+    width: 300px;
+    object-fit: contain;
+}
+
+.footlinks h4 {
+    color: #ffdb74;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.footlinks ul li {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    padding: 3px;
+    list-style-type: none;
+    margin-left: -34px;
+    padding-top: 10px;
+}
+
+.footlinks {
+    padding-top: 7%;
+}
+
+.appstore {
+    padding-top: 60%;
+}
+
+.paypalimg {
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+}
+
+.copyright {
+    background-color: #ffdb74;
+    padding-top: 14px;
+    padding-bottom:5px;
+}
+
+.copyright h3 {
+    text-align: center;
+    font-size: 17px !Important;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+img.cal {
+    width: 58px;
+    margin-top: -35px;
+    padding-right: 3px;
+}
+.completeblog {
+    width: 100%;
+}
+
+.completeblog ul {}
+
+.completeblog ul li:first-child {
+    /* background: red !important; */
+}
+
+.blogmaincontent-right {
+    width: 35%;
+}
+
+.blogimg11 img {
+    width: 100px;
+}
+
+.blogmaincontent-right {}
+
+.small-blog-cont {}
+
+.small-blog-cont ul {
+    display: inline-flex;
+}
+
+.small-blog-cont ul li {}
+
+.small-blog-cont-in {
+    margin-left: 20px;
+}
+
+.main-blog-cont {
+    margin-left: 18px;
+}
+
+h3.workshophea1 {
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+p.para9 {
+    color: black;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    /* width: 120%; */
+    margin-top: -3px;
+}
+
+
+
+ .any-slider-box {
+    display: flex;
+}
+
+span.deleivery {
+    display: flex;
+    justify-content: center;
+    margin-top: -19px;
+    padding-left: 26px;
+}
+
+
+/* for me */
+
+/* [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    display: none !important;
+}
+
+ul.slick-dots {
+    display: none !important;
+} */
+
+.slick-wrapper {
+	width: 100%;
+	/* background-color: aqua; */
+}
+.slide-item {
+	/* background-color: rebeccapurple; */
+	color: aqua;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 200px;
+	/* border: 1px solid white; */
+	
+}
+
+.shop-slick-main {
+    /* background: red; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop-slick-main>.slide-item {
+    width: 100%;
+    /* background: aqua; */
+    /* display: inline-flex !important; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+    height: 230px;
+    /* width: 230px; */
+    flex-grow: 1;
+    width: 22%;
+    margin: 25px;
+}
+div#prod {
+    padding-top: 5rem;
+}
+
+div#prod button.slick-arrow {
+   background: #060606;
+    top: 54px;
+    right: 0px;
+    left: auto !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 35px;
+}
+
+div#prod .slick-list {}
+
+div#prod .slick-list .product-slider {
+    padding: 20px;
+}
+
+div#prod .slick-list .product-slider>.row {
+    padding: 5rem 0 !important;
+}
+
+div#prod .slick-list .product-slider>div {
+    /* background: red; */
+}
+
+div#prod button.slick-prev {
+    /* background: green; */
+    right: 60px;
+}
+
+div#prod button.slick-arrow:before {
+    opacity: 1;
+    content: '\f054' !important;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Font Awesome\ 5 Free';
+}
+div#prod button.slick-prev:before {
+    content: '\f053' !important;
+}
+#slick2 button.slick-arrow {
+    /* background: red; */
+    bottom: -100px;
+    top: unset;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 55px;
+    width: 55px;
+    border-radius: 100px;
+    border: 2px solid #ffdb74;
+    /* position: relative; */
+}
+
+#slick2 button.slick-prev {
+    left: -70px;
+}
+
+#slick2 button.slick-next {
+    right: -70px;
+}
+
+#slick2 button.slick-arrow:before {
+    opacity: 1;
+    content: '' !important;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #000;
+    font-family: 'Font Awesome\ 5 Free';
+    
+}
+#slick2 button.slick-next:before {
+    content: '\f061' !important;
+    right: -50px;
+    position: absolute;
+    /* top: 30px; */
+    bottom: 0;
+    margin: auto;
+    /* left: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slick2 button.slick-prev:before {
+    content: '\f060' !important;
+    left: -50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /* right: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#slick2 button.slick-prev:after {
+    content:'';
+    position:absolute;
+    left: -62px;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+    background: #000;
+    height: 4px;
+    margin: auto;
+    width: 100%;
+}
+
+
+#slick2 button.slick-next:after {
+    content:'';
+    position:absolute;
+    right: -30px;
+    bottom: 0;
+    top: 0;
+    background: #000;
+    height: 4px;
+    margin: auto;
+    width: 100%;
+}
+
+div#slick3 button.slick-arrow:before {
+    opacity: 1;
+    content: '' !important;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Font Awesome\ 5 Free';
+}
+
+div#slick3 button.slick-arrow {
+    background: #060606;
+    left: auto !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+div#slick3 button.slick-prev {
+    left: -49px !important;
+    top: 7rem;
+}
+div#slick3 button.slick-next::before {
+    content: '\f054' !important;
+}
+
+
+div#slick3 button.slick-prev::before {
+    content: '\f053' !important;
+}
+
+
+
+div#slick1 button.slick-arrow:before {
+    opacity: 1;
+    content: '' !important;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #000;
+    font-family: 'Font Awesome\ 5 Free';
+}
+
+div#slick1 button.slick-arrow {
+    background: #ffffff;
+    left: auto !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+div#slick1 button.slick-prev {
+    left: -75px !important;
+}
+div#slick1 button.slick-next {
+    right: -75px !important;
+}
+div#slick1 button.slick-next::before {
+    content: '\f054' !important;
+}
+
+
+div#slick1 button.slick-prev::before {
+    content: '\f053' !important;
+}
+
+div#slick3 button.slick-next {
+    right: -50px;
+    top: 109px;
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------Home Page end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------About Page start-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* bannercssend */
+
+ /* how it works css */
+   .worksection_mu {
+    /* background-color: black; */
+    padding-top: 10%;
+    padding-bottom: 6%;
+    /* margin-top: 10%; */
+}
+
+p.ab_para {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+.ab_img{
+    width: 100%;
+    object-fit: contain;
+    padding-top: 3%;
+}
+
+/* ourteam css */
+.ourteam{
+    background-color: #f6f6f6;
+    padding-top: 5% ;
+    padding-bottom: 5%;
+}
+
+section.ourteam h5 {
+    color: #8f8f8f;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+section.ourteam h3 {
+    color: black;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-bottom: 40px;
+}
+
+section.ourteam img {
+    width: 100%;
+}
+
+/* testimonial section css  */
+
+/*section.testimonial_mu {*/
+/*    padding-top: 9%;*/
+/*    padding-bottom: 5%;*/
+/*}*/
+
+/*section.testimonial_mu h2 {*/
+/*    color: black;*/
+/*    font-family: 'Montserrat';*/
+/*    font-size: 55px;*/
+/*    font-weight: bolder;*/
+/*}*/
+
+/*.testimonial_para {*/
+/*    color: #767676;*/
+/*    font-family: poppins;*/
+/*    width: 73%;*/
+/*    line-height: 29px;*/
+/*    font-weight: 600;*/
+/*}*/
+/*span.test_title {*/
+/*    font-size: 20px;*/
+/*    padding-left: 18px;*/
+/*    font-family: 'Montserrat';*/
+/*    font-weight: 500;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*p.tets_para {*/
+/*    color: #909090 !important;*/
+/*    padding-top: 31px;*/
+/*    width: 64% !important;*/
+/*    font-size: 20px;*/
+/*    font-weight: 500 !important;*/
+/*    text-align:left !important;*/
+/*}*/
+
+/*span.test_post_mu {*/
+/*    display: block;*/
+    /* padding-left: 18%; */
+/*    margin-top: 0%;*/
+/*    font-family: poppins;*/
+/*    font-size: 18px;*/
+/*    text-transform: uppercase;*/
+/*    color: gray;*/
+/*    margin-left: -36%;*/
+/*}*/
+
+
+
+/* bannercss */
+
+.banner_mu {
+    background-color: black;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+img.banimg_mu {
+    width: 93%;
+    transform: scale(1.6);
+}
+
+h2.banner_head {
+    color: #ffdb74;
+    font-size: 79px;
+    font-weight: 900;
+}
+span.aboutus_head {
+    color: white;
+    padding-left: 32px;
+}
+
+p.bannerabout_para {
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    padding-top: 33px;
+    padding-bottom: 21px;
+    width: 94%;
+    color: #d2d2d2;
+}
+
+
+button.btn-shop {
+    background: #ffdb74;
+    color: black;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 20px;
+}
+
+
+
+/* bannercssend */
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------About Page end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------Customer Service Page start-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* bannercss */
+
+section.customerbanner {
+    background-color: black;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+section.customerbanner h2 {
+    color: #ffdb74;
+    font-family: 'Poppins';
+    font-size: 79px;
+    font-weight: 800;
+}
+span.service_mu {
+    color: white;
+}
+
+p.servicepara_mu {
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    padding-bottom: 21px;
+    width: 77%;
+    color: #d2d2d2;
+}
+
+button.servicebtn_mu {
+    background: #ffdb74;
+    color: black;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 20px;
+}
+
+img.serviceban_img {
+    width: 83%;
+    transform: scale(1.9);
+}
+
+
+
+/* bannercssend */
+
+
+/* form css  */
+
+img.callman {
+    width: 734px;
+    height: 518px;
+    object-fit: cover;
+    object-position: center center;
+    margin-top: 22px;
+}
+
+section.formsection {
+    padding-top: 9%;
+    padding-bottom: 5%;
+}
+
+.mainformcolumn {
+    background: #4a6a8e;
+    padding: 64px;
+    border-radius: 22px;
+    width: 50% !important;
+    padding-bottom: 55px;
+    box-shadow: 1px -3px 11px 4px #d3d3d3;
+    padding-left: 31px !important;
+}
+
+.mainformcolumn h6 {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.mainformcolumn h3 {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 32px;
+    padding-bottom: 36px;
+}
+
+.mainformcolumn input {
+    font-family: poppins;
+    padding-left: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    border: none;
+    width: 46%;
+    font-weight: 600;
+    color: #595959;
+}
+
+select#customservice {
+    width: 49%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 9px;
+    padding-left: 13px;
+    font-family: poppins;
+    border: navajowhite;
+    font-weight: 500;
+    color: #595959;
+}
+
+p.file_instructions {
+    color: white;
+    font-family: 'Poppins';
+    width: 75%;
+    font-weight: 300;
+}
+
+input#documents_mu {
+    width: 100%;
+    color: black !important;
+    font-weight: 400;
+    margin-bottom: 39px;
+}
+
+button.submit_btn {
+    margin-left: 33%;
+    color: #3868ab;
+    font-family: poppins;
+    padding: 8px 40px 7px 40px;
+    border-radius: 20px;
+    border: navajowhite;
+    font-weight: 500;
+}
+
+input#lname {
+    margin-left: 30px;
+}
+/* form css end */
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------Customer Service Page end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------Contact Us Page start-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* bodysection css */
+
+.cont_mu{
+    background:black;
+}
+
+
+h3.top_heading_mu {
+    font-size: 66px !important;
+    font-weight: 700 !important;
+    color: white !important;
+}
+
+input#name {
+    width: 100%;
+    height: 61px;
+    padding: 28px;
+}
+
+textarea.form-control {
+    padding-left: 29px;
+}
+
+.contact_form-mu input {
+    background: white !important;
+    border: 3px solid #ffdb74;
+    color: black !important;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.contact_form-mu textarea {
+    background: black !important;
+    border: 3px solid #ffdb74;
+    color: white !important;
+}
+
+.contact_form-mu input::placeholder {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.contact_form-mu textarea::placeholder {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+select#country {
+    width: 100%;
+    height: 61px;
+    padding-left: 25px;
+    /* background: black; */
+    border: 3px solid #ffdb74;
+    margin-bottom: 19px;
+    /* color: white !important; */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+option {
+    /* color: white; */
+}
+
+input.mt-3.formsubmitt_btn {
+    width: 100%;
+    height: 45px;
+    color: black !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #ffdb74 !important;
+    border-radius: 20px;
+    font-size: 19px;
+}
+
+input.mt-3.formsubmitt_btn:hover {
+    background: black !important;
+    color: white !important;
+}
+
+
+.contact_info {
+    BACKGROUND: #ffdb74;
+    padding-left: 4% !important;
+    border-top-left-radius: 34px;
+    border-bottom-left-radius: 34px;
+}
+
+.form_box {
+    background: white;
+    padding: 37px;
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+}
+
+.help_para {
+    width: 98%;
+}
+
+.contact_form-mu input::placeholder {
+    color: black;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.help_head {
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 31px !important;
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------Contact Us Page end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------Our Team  Page start-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/* bannercss */
+
+.ourteambanner_mu {
+    background-color: black;
+    padding-top: 8%;
+    padding-bottom: 8%;img.banimg_mu {
+    width: 93%;
+    transform: scale(1.6);
+    margin-top: -21%;
+    margin-left: 0%;
+}
+}
+
+img.banimg_mu {
+    width: 93%;
+    transform: scale(1.6);
+    margin-top: -21%;
+    margin-left: 0%;
+}
+
+h2.ourteambanner_head {
+    color: #ffdb74;
+    font-size: 79px;
+    font-weight: 900;
+}
+span.ourteam_head {
+    color: white;
+    padding-left: 32px;
+}
+
+p.bannerteam_para {
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 42px;
+    padding-top: 33px;
+    padding-bottom: 21px;
+}
+
+button.btn-shop {
+    background: #ffdb74;
+    color: black;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 20px;
+}
+
+
+
+/* bannercssend */
+
+/* our team css  */
+
+.ourteam_mu{
+    background-color: #f6f6f6;
+    padding-top: 5% ;
+    padding-bottom: 5%;
+}
+
+section.ourteam_mu h5 {
+    color: #8f8f8f;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+section.ourteam_mu h3 {
+    color: black;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-bottom: 40px;
+}
+
+section.ourteam_mu img {
+    width: 100%;
+}
+
+/* our team css end  */
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------Our Team  Page end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------How It Work Page start-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* bannercss */
+
+.banner_mu {
+    background-color: black;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.howban_mu {
+    width: 80%;
+    transform: scale(2);
+    margin-top: -13%;
+    padding-left: 7%;
+}
+
+h2.banner_head_how {
+    color: #ffdb74;
+    font-size: 67px;
+    font-weight: 900;
+}
+span.how_head {
+    color: white;
+    /* padding-left: 32px; */
+}
+
+p.bannerhow_para {
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 42px;
+    padding-top: 33px;
+    padding-bottom: 21px;
+}
+
+button.btn-shop {
+    background: #ffdb74;
+    color: black;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 20px;
+}
+
+
+
+/* bannercssend */
+
+/* how it works page css */
+section.howitwork_mu {
+    padding-top: 11%;
+    padding-bottom: 5%;
+    background: #f6f6f6;
+    padding-bottom:11%;
+}
+
+h4.how_head {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span.work_head {
+    color: #ffdb74;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+span.info_tilemu {
+    color: black;
+    font-size: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 10%;
+}
+
+p.info_paramu {
+    width: 97%;
+    font-size: 15px;
+    font-family: 'Poppins';
+    padding-left: 30.1%;
+    margin-top: -7%;
+    color: #a5a5a5;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.works_content img {
+    padding-top: 6%;
+    padding-left: 30px;
+}
+
+span.info_tilemu1 {
+    color: black;
+    font-size: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 4.6%;
+}
+
+p.info_paramu1 {
+    width: 97%;
+    font-family: 'Poppins';
+    padding-left: 29.1%;
+    margin-top: -4%;
+    color: #a5a5a5;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+span.info_tilemu2 {
+    color: black;
+    font-size: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 10.6%;
+}
+
+p.info_paramu2 {
+    width: 97%;
+    font-size: 16px;
+    font-family: 'Poppins';
+    padding-left: 30%;
+    margin-top: -4%;
+    color: #a5a5a5;
+    font-weight: 400;
+}
+
+img.howshow_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------How It Work Page end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------careers Page start-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/* bannercss */
+
+.carresban_mu {
+    background-color: black;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.howban_mu {
+    width: 80%;
+    transform: scale(2);
+    margin-top: -13%;
+    padding-left: 7%;
+}
+
+h2.carresbanner_head {
+    color: #ffdb74;
+    font-size: 96px;
+    font-weight: 900;
+}
+span.aboutus_head {
+    color: white;
+    /* padding-left: 32px; */
+}
+
+p.bannercarres_para {
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 42px;
+    padding-top: 33px;
+    width: 89%;
+    padding-bottom: 21px;
+}
+
+button.btn-shop {
+    background: #ffdb74;
+    color: black;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 20px;
+}
+
+
+
+/* bannercssend */
+
+
+/* main content css  */
+.careers{
+    background-image: url(/images/backimg.png);
+    background-color: #edeeed;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+section.careers h3 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 7px;
+}
+
+.place_para {
+    color: #727272;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 17px;
+    width: 79%;
+    padding-left: 24%;
+    line-height: 33px;
+    padding-bottom: 5%;
+}
+
+.card_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cardcontent{
+    padding-top:5%;
+}
+.cardcontent .card-body {
+    background: #f5f5f5;
+    border-radius: 41px;
+}
+
+.cardcontent .card-title {
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.cardcontent .card {
+    border-radius: 53px;
+}
+
+.cardcontent .card {
+    background: #f5f5f5;
+    box-shadow: 3px 4px 22px 4px #b5b5b5;
+    border-radius: 7%;
+}
+
+.cardcontent .card-text {
+    font-family: 'Poppins';
+    padding: 18px;
+    /* padding-bottom: 58px; */
+    color: #6f6f6f;
+    font-weight: 500;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------careers Page end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------About the app Page start-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/* bannercss */
+
+.app_mu {
+    background-color: black;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.appban_mu {
+    width: 94%;
+    transform: scale(1.58);
+    margin-top: -13%;
+    padding-left: 7%;
+}
+
+h2.appbanner_head {
+    color: #ffdb74;
+    font-size: 74px;
+    font-weight: 900;
+}
+span.aboutus_head {
+    color: white;
+    /* padding-left: 32px; */
+}
+
+p.bannerapp_para {
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 42px;
+    padding-top: 33px;
+    padding-bottom: 21px;
+}
+
+button.btn-shop {
+    background: #ffdb74;
+    color: black;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 20px;
+}
+
+
+
+/* bannercssend */
+
+/* maincontent css */
+
+section.aboutapp {
+    padding-top: 9%;
+}
+
+.appinfo h3 {
+    text-align: center;
+    font-size: 57px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.appinfo p {
+    text-align: center;
+    font-family: poppins;
+    font-size: 17px;
+    width: 82%;
+    padding-left: 14%;
+    font-weight: 300;
+}
+
+.appbox1 h5 {
+    text-align: center;
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+.appbox1 img {
+    margin-left: 36%;
+    padding-bottom: 24px;
+}
+
+.appbox1 p {
+    text-align: center;
+    font-family: 'Poppins';
+    color: #9c9c9c;
+    padding-top: 20px;
+}
+
+.appbox1 {
+    padding: 46px;
+    box-shadow: 5px 7px 31px 0px #f2f2f2;
+    border-radius: 24px;
+    margin: 14px;
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------About the app Page end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------Trust Page Start-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/* bannercss */
+
+.trust_mu {
+    background-color: black;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+h2.trustbanner_head {
+    color: #ffdb74;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+p.bannertrust_para {
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 42px;
+    padding-top: 33px;
+    padding-bottom: 21px;
+}
+
+button.btn-shop {
+    background: #ffdb74;
+    color: black;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 20px;
+}
+
+img.banimg_mu {
+    width: 100%;
+    transform: scale(1.4);
+    margin-top: -17%;
+}
+
+
+/* bannercssend */
+
+/* main content css  */
+
+.trust {
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.trust h4 {
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 47px;
+}
+   
+.trust p {
+    color: black;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 19px;
+    width: 84%;
+    padding-left: 16%;
+    line-height: 31px;
+    color: #b9b9b9;
+}
+
+/* boxes css */
+
+.first_box {
+    background: #fedb73;
+    padding-top: 44px;
+    padding-bottom: 11%;
+    /* border: 7px solid #d0d2d1; */
+    border-radius: 23px;
+    box-shadow: 1px 2px 9px 5px #d0d2d1;
+    margin: 30px;
+    width: 86%;
+    height: 640px;
+}
+
+.first_box img {
+    width: 26%;
+}
+
+.first_box p {
+    color: #8e7c4e !important;
+    font-family: poppins;
+    font-size: 15px !important;
+    padding-top: 2%;
+    font-weight: 400;
+}
+
+h5.box_head {
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    padding-top: 33px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 23px;
+}
+
+/* slick slider css */
+
+#trustbox_1 ul.slick-dots li button::before {
+    color: black;
+    font-size: 18px;
+}
+
+#trustbox_1 .slide-item {
+    height: 100%;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------Trust Page end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------second how it works page start-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/* bannercss */
+
+.banner_mu {
+    background-color: black;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.howban_mu {
+    width: 80%;
+    transform: scale(2);
+    margin-top: -13%;
+    padding-left: 7%;
+}
+
+h2.banner_head_how {
+    color: #ffdb74;
+    font-size: 72px;
+    font-weight: 900;
+}
+span.how_head {
+    color: white;
+    /* padding-left: 32px; */
+}
+
+p.bannerhow_para {
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 42px;
+    padding-top: 33px;
+    padding-bottom: 21px;
+}
+
+button.btn-shop {
+    background: #ffdb74;
+    color: black;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 20px;
+}
+
+
+
+/* bannercssend */
+
+/* how it works copy page css */
+
+section.workcopy1 {
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+
+section.workcopy1 h4 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    padding-top: 9%;
+}
+
+section.workcopy1 p {
+    color: black;
+    font-family: 'Poppins';
+    font-size: 18px;
+    width: 83%;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------second how it works page end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------social media page start-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/* bannercss */
+
+.social_mu {
+    background-color: black;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.howban_mu {
+    width: 80%;
+    transform: scale(2);
+    margin-top: -13%;
+    padding-left: 7%;
+}
+
+h2.socialbanner_head {
+    color: #ffdb74;
+    font-size: 67px;
+    font-weight: 900;
+}
+span.aboutus_head {
+    color: white;
+    /* padding-left: 32px; */
+}
+
+p.bannersocial_para {
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 42px;
+    padding-top: 33px;
+    width: 89%;
+    padding-bottom: 21px;
+}
+
+button.btn-shop {
+    background: #ffdb74;
+    color: black;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 20px;
+}
+
+
+
+/* bannercssend */
+
+/* content css  */
+
+section.socialmedia {
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
+.custom_tabs p {
+    color: #6b6b6b;
+    padding: 14px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 14px 2px #ececec;
+    font-family: poppins;
+    font-size: 17px;
+    margin-bottom: 44px;
+}
+
+.custom_tabs p:hover {
+    border: 3px solid #ffc700;
+}
+
+.s1_img{
+    width: 94%;
+    padding-left: 17%;
+}
+
+
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------------social media page end-------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
